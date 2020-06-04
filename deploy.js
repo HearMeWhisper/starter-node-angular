@@ -55,6 +55,7 @@ function createRemoteTempFolder() {
   });
 }
 
+
 // stops mongodb and node services on the remote server
 function stopRemoteServices() {
   return ssh.execCommand(
